@@ -1,0 +1,82 @@
+<template>
+  <div class="page" data-name="home">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Profile</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block"></div>
+      <div class="list media-list list-outline-ios list-strong-ios list-dividers-ios">
+        <ul>
+          <li>
+            <a href="/profile1/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="row padding-top text-align-center">
+                  <div class="row"><img class="lazy lazy-fade-in" src="../assets/dini1.jpg" align="left" width="10%" /> DINISA HANDAYANI</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/profile2/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="row padding-top text-align-center">
+                  <div class="row"><img class="lazy lazy-fade-in" src="../assets/herfan.jpg" align="left" width="10%" /> HERFAN</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/profile3/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="row padding-top text-align-center">
+                  <div class="row"><img class="lazy lazy-fade-in" src="../assets/iren.jpg" align="left" width="10%" /> IRENA DEWI</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/profile4/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="row padding-top text-align-center">
+                  <div class="row"><img class="lazy lazy-fade-in" src="../assets/alif.jpg" align="left" width="10%" /> MUHAMMAD NUR ALIF</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/profile5/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="row padding-top text-align-center">
+                  <div class="row"><img class="lazy lazy-fade-in" src="../assets/radit.jpg" align="left" width="10%" /> MUHAMMAD RADITYA</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/profile6/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="row padding-top text-align-center">
+                  <div class="row"><img class="lazy lazy-fade-in" src="../assets/palen.jpg" align="left" width="10%" /> VALENCIA CORNELIA PUTRI SAMUEL</div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

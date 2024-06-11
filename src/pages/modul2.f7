@@ -1,0 +1,29 @@
+<template>
+  <div class="page" data-name="modul2Page">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Modul 2</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title text-color-black">Operasi Hitung Bilangan Bulat</div>
+
+      <div class="card-content card-content-padding">
+        <p>Operasi hitung bilangan bulat merupakan salah satu kegiatan yang melibatkan penjumlahan, pengurangan, pembagian dan perkalian dalam perhitungan susunan angka atau bilangan.</p>
+      </div>
+      <a href="#" class="button button-fill popup-open margin-left margin-right text-color-black" style="background-color: #90b8db" data-popup="#modul2">Buka Modul</a>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

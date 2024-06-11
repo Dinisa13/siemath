@@ -1,0 +1,45 @@
+<template>
+  <div class="page" data-name="jawaban4Page">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">kunci jawaban 4</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title text-color-black">Kunci Jawaban Latihan Soal 4</div>
+
+      <div class="card card-outline">
+        <div class="card-content card-content-padding">
+          <p>
+            Perbanyak soal latihan Memahami materi saja tidak cukup untuk siap mengerjakan soal. <br />Karena akan dibutuhkan banyak latihan untuk mengerjakan contoh soal, dari yang paling sederhana hingga yang paling rumit. <br />Dengan
+            mengerjakan soal beberapa kali dapat membantu anda berlatih memecahkan variasi pertanyaan yang berbeda untuk rumus tertentu.
+          </p>
+        </div>
+      </div>
+      <div class="card card-outline">
+        <div class="card-content card-content-padding">
+          <p>
+            Ubah pikiran anda bahwa matematika itu rumit Hilangkan anggapan bahwa matematika itu sulit.
+            <br />
+            Penting bagi siswa untuk berubah pikiran dan meyakinkan diri sendiri bahwa matematika itu sederhana dan mudah dipahami.
+            <br />Tentunya dengan sugesti yang positif dapat membuat siswa lebih termotivasi untuk belajar matematika dan tidak mudah menyerah ketika kita menemukan materi yang sulit. <br />Ingat juga jangan pernah membenci matematika,
+            orang yang tidak suka matematika tidak akan mengerti dan matematika diperlukan untuk kehidupan sehari-hari sehingga matematika juga harus dipelajari
+          </p>
+        </div>
+      </div>
+      <a href="#" class="button button-fill popup-open margin-left margin-right text-color-black" style="background-color: #90b8db" data-popup="#">Lihat Kunci Jawaban</a>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

@@ -1,0 +1,26 @@
+<template>
+  <div class="page" data-name="about">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">About APPS</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block">
+        <p>Aplikasi ini sangat cocok untuk para siswa kelas VII untuk mempelajari matematika dan sebagai latihan</p>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

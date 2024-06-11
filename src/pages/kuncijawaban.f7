@@ -1,0 +1,120 @@
+<template>
+    <div class="page" data-name="home">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Latihan Soal</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block">
+                <div class="list media-list list-outline-ios list-strong-ios list-dividers-ios">
+                    <ul>
+                        <li>
+                            <a class="item-link item-content" href="/jawaban1/">
+                                <div class="item-media">
+                                    <img style="border-radius: 0px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                        width="40" />
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title item-subtitle">Jawaban - Latihan Soal Modul 1</div>
+                                    </div>
+                                    <div class="item-subtitle">10 soal</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item-link item-content" href="/jawaban2/">
+                                <div class="item-media">
+                                    <img style="border-radius: 0px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                        width="40" />
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title item-subtitle">Jawaban - Latihan Soal Modul 2</div>
+                                    </div>
+                                    <div class="item-subtitle">10 soal</div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="item-link item-content" href="/jawaban3/">
+                                <div class="item-media">
+                                    <img style="border-radius: 0px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                        width="40" />
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title item-subtitle">Jawaban - Latihan Soal Modul 3</div>
+                                    </div>
+                                    <div class="item-subtitle">10 soal</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item-link item-content" href="/jawaban4/">
+                                <div class="item-media">
+                                    <img style="border-radius: 0px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                        width="40" />
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title item-subtitle">Jawaban - Latihan Soal Modul 4</div>
+                                    </div>
+                                    <div class="item-subtitle">10 soal</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item-link item-content" href="/jawaban5/">
+                                <div class="item-media">
+                                    <img style="border-radius: 0px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                        width="40" />
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title item-subtitle">Jawaban - Latihan Soal Modul 5</div>
+                                    </div>
+                                    <div class="item-subtitle">10 soal</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item-link item-content" href="/jawaban6/">
+                                <div class="item-media">
+                                    <img style="border-radius: 0px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                        width="40" />
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title item-subtitle">Jawaban - Latihan Soal Modul 6</div>
+                                    </div>
+                                    <div class="item-subtitle">10 soal</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    }
+</script>

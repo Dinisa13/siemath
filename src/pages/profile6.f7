@@ -1,0 +1,89 @@
+<template>
+  <div class="page" data-name="profile">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title text-align-center">VALENCIA CORNELIA PUTRI SAMUEL</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="card padding-no-shadow">
+        <!-- Foto Profile -->
+        <div class="card-content padding-top">
+          <div class="row">
+            <div class="card-content padding-top padding-bottom">
+              <div class="row">
+                <div class="col-10"></div>
+                <div class="col-60 text-align-center">
+                  <img class="lazy lazy-fade-in demo-lazy" src="../assets/palen.jpg" width="40%" />
+                </div>
+                <div class="col-10"></div>
+              </div>
+            </div>
+            <!-- End Foto -->
+            <!-- Nama Profile -->
+            <div class="card-content padding-bottom">
+              <div class="row">
+                <div class="col-10"></div>
+                <div class="col-50 text-align-center">
+                  <h2 class="text-color-teal"><u>valen11@gmail.com</u></h2>
+                </div>
+                <div class="col-10"></div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">Profile account :</div>
+              <div class="card-content">
+                <div class="list media-list no-safe-areas">
+                  <ul>
+                    <li class="item-content">
+                      <div class="item-media"><img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" width="20" /></div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">VALENCIA CORNELIA PUTRI SAMUEL</div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content">
+                      <div class="item-media">
+                        <img
+                          src="https://th.bing.com/th/id/R.a52659d3729adbff2a7f1a1e5cabaaac?rik=AyjyetDpZd3gPQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fwhatsapp%2fwhatsapp_PNG14.png&ehk=Ewrvxp9zehoNYPqkvfasmkhEqDnN%2biz0TxesHPbSdOU%3d&risl=&pid=ImgRaw&r=0"
+                          width="20"
+                        />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">0857 7776 0999</div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content">
+                      <div class="item-media"><img src="https://cdn-icons-png.flaticon.com/512/9187/9187475.png" width="20" /></div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">19210111</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer"><span>copyright</span><span>17, Juni 2023</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

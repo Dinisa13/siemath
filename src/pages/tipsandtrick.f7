@@ -1,0 +1,26 @@
+<template>
+  <div class="page" data-name="tipsandtrikPage">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Tips and Trick</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title text-color-black">Tips and Trick</div>
+      <div class="card card-outline"></div>
+      <a href="#" class="button button-fill popup-open margin-left margin-right text-color-black" style="background-color: #90b8db" data-popup="#tips">Lihat Tips and Trik</a>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

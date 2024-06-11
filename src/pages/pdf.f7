@@ -1,0 +1,30 @@
+<template>
+  <div class="pdfpage" data-name="pdf">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">About</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title">pdf</div>
+      <iframe src="../pages/test.pdf" width="400px" height="400px" style="border: 0">
+        <p>
+          Your browser does not support PDF files.
+          <a href="../pages/test.pdf">Download the file instead</a>
+        </p>
+      </iframe>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

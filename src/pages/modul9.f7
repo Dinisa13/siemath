@@ -1,0 +1,44 @@
+<template>
+  <div class="page" data-name="modul9Page">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Modul 9</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title text-color-black">Penyajian Data</div>
+
+      <div class="card-content card-content-padding">
+        <p>
+          Penyajian data merupakan bentuk pengemasan suatu data secara visual sedemikian sehingga data lebih mudah dipahami. Tanpa ada penyajian yang tepat, sorang peneliti akan kesulitan untuk menganalisis hasil akhir penelitian. Penyajian
+          data bisa dilakukan dalam bentuk tabel, diagram, maupun grafik. Pemilihan bentuk penyajian ini disesuaikan dengan jenis datanya. Contohnya seperti diagram atau grafik sesuai untuk data kuantitatif.<br />
+          <br />
+          Himpunan adalah kumpulan objek-objek yang dapat didefinisikan dengan jelas dan terukur sehingga dapat diketahui termasuk atau tidaknya di dalam himpunan tertentu. Jadi, himpunan anggotanya sudah jelas, tetapi ada juga yang disebut
+          bukan himpunan. Yang bukan himpunan berarti anggotanya tidak dapat ditentukan secara jelas dan tidak dapat diukur. <br />
+          <br />
+          Perbandingan adalah membandingkan dua nilai atau lebih dari suatu besaran yang sejenis dan dinyatakan dengan cara yang sederhana. Perbandingan juga bisa dinyatakan dalam pecahan. <br />
+          <br />
+          Aritmatika sosial adalah cabang ilmu dari matematika yang fokus pada korelasi yang eksponen antara angka dengan suatu objek tertentu. Dalam perkembangannya, objek ini diasosiasikan sebagai permasalahan sosial dalam konteks
+          finansial dan jual-beli. <br />
+          <br />
+          Garis adalah susunan titik-titik (bisa tak hingga) yang saling bersebelahan dan berderet memanjang ke dua arah (kanan/kiri, atas/bawah). Sedangkan Sudut dapat diartikan sebagai sebuah wilayah/daerah yang terbentuk karena adanya
+          dua buah garis yang titik pangkalnya saling bersekutu atau berhimpit. <br />
+          <br />
+        </p>
+      </div>
+      <a href="#" class="button button-fill popup-open margin-left margin-right text-color-black" style="background-color: #90b8db" data-popup="#modul9">Buka Modul</a>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>
